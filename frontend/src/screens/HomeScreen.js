@@ -35,7 +35,7 @@ const HomeScreen ={
         </div>
         <div id="shop">
         <div class="category">
-            <p style="font-size:2.5rem; font-weight:bold;"> Categories</p>
+            <p style="font-size:2.5rem; font-weight:bold;"> Categories <span> </span></p>
             <hr>
             <p id="category1">Cricket Bat</p>
             <p id="Category2">Cricket ball</p>
