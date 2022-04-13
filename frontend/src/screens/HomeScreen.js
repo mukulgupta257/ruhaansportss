@@ -1,5 +1,5 @@
 import { getProducts } from "../api.js";
-import Rating from "../component/rating.js";
+import Rating from "../component/Rating.js";
 import { parseRequestUrl } from "../util.js";
 
 const HomeScreen ={
