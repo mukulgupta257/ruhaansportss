@@ -46,4 +46,5 @@ app.use((err, req, res, next)=>{
 })
 app.listen(config.PORT, _=>{
     console.log('serve at ' + config.PORT ? config.PORT : '5000' )
+    console.log(config.MONGODB_URL)
 })
