@@ -1,1 +1,1 @@
-web: node newbackend/server.js
+web:node newbackend/server.js
