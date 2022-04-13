@@ -44,7 +44,6 @@ app.use((err, req, res, next)=>{
     const status= err.name && err.name === 'ValidationError'? 400: 500;
     res.status(status).send({message : err.message})
 })
-app.listen(config.PORT, _=>{
-    console.log('serve at ' + config.PORT ? config.PORT : '5000' )
-    console.log(config.MONGODB_URL)
+app.listen(config.PORT || 3000, _=>{
+    console.log('serve at ' + config.PORT ? config.PORT : '3000' )
 })

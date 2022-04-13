@@ -58,6 +58,6 @@ app.use((err, req, res, next) => {
     message: err.message
   });
 });
-app.listen(_config.default.PORT, _ => {
-  console.log('serve at ' + _config.default.PORT ? _config.default.PORT : '5000');
+app.listen(_config.default.PORT || 3000, _ => {
+  console.log('serve at ' + _config.default.PORT ? _config.default.PORT : '3000');
 });
